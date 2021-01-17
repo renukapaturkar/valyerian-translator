@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 42rem;
+    background-color:#374151 ;
+    
+}
+
+
+
+:root{
+    --primary-color: #374151;
+    --offwhite-color: #F3F4F6;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color:var(--offwhite-color);
+    padding: 1rem;
+    
+}
+.navigation .nav-name{
+    font-weight: bolder;
+}
+.navigation .nav-name h1{
+    text-align: center;
+}
+
+#text-input{
+    color: var(--offwhite-color);
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
+    width:90%;
+    height: 20vh;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    
+    
+}
+
+#btn-translate{
+    border: 1px solid;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    background-color: var(--offwhite-color);
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	
+    
+}
+
+#output-div{
+    
+    border: 1px solid var(--offwhite-color);
+    width: 90%;
+    height: 20vh;
+    margin: 4rem 1rem;
+    padding: 1rem;
+}
+
+.footer{
+    
+    padding: 1rem 1rem;
+    text-align: center;
+    color: var(--offwhite-color);
+    
+}
+
+.footer .footer-header{
+    font-weight: normal;
+}
+
+.footer .footer-header .link{
+    color:var(--offwhite-color);
+}
