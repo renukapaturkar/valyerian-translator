@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
-
-
-body{
-    font-family: 'Source Serif Pro', serif;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 42rem;
-    background-color:#374151 ;
-    
-}
-
-
-
 :root{
     --primary-color: #374151;
     --offwhite-color: #F3F4F6;
 }
 
-.navigation{
-    background-color: var(--primary-color);
+body{
+    font-family: 'Source Serif Pro', serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 45rem;
+    background-color:var(--primary-color) ;
     color:var(--offwhite-color);
+}
+
+
+
+
+
+.navigation{
     padding: 1rem;
+    font-size: 2em;
+    text-decoration:underline;
     
 }
 .navigation .nav-name{
@@ -50,13 +50,18 @@ body{
     background-color: var(--offwhite-color);
     display: flex;
 	align-items: center;
-	justify-content: center;
+    justify-content: center;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bolder;
+    font-size: 1em;
 	
     
 }
 
 #output-div{
-    
+    color: var(--offwhite-color);
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
     border: 1px solid var(--offwhite-color);
     width: 90%;
     height: 20vh;
